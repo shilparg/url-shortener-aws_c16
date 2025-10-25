@@ -1,0 +1,11 @@
+# Require Shilpa to review all changes
+
+- @shilparg
+
+# Optional: assign module-specific owners
+
+# /modules/api_gateway/ @api-lead
+
+# /modules/lambda_create_url/ @backend-lead
+
+# /modules/waf/ @security-lead

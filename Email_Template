@@ -1,0 +1,33 @@
+Subject: Capstone Progress Update – Serverless URL Shortener Backend
+
+Hi [Stakeholder Name],
+
+Here’s a quick update on our capstone project:
+
+✅ We’ve completed the modular Terraform setup for all AWS components:
+
+- API Gateway (custom domain, WAF-protected)
+- Lambda functions (create/retrieve)
+- DynamoDB, CloudWatch, SNS, IAM roles
+
+✅ CI/CD is fully enforced via GitHub Actions:
+
+- Validation on pull request
+- Deployment on merge to `main`
+- Branch protection and CODEOWNERS active
+
+✅ Governance is documented in `README.md`, `GOVERNANCE.md`, and `SECURITY.md`
+
+- All resources tagged for auditability
+- IAM scoped with least privilege
+- Alerts and tracing enabled
+
+Next steps:
+
+- Final QA critique and unit tests
+- Recruiter-ready summary and demo
+
+Let me know if you’d like a walkthrough or have feedback.
+
+Best,  
+Shilpa
